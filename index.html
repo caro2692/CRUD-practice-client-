@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Movie Crud</title>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/paper/bootstrap.css">
+
+  </head>
+  <body class-"container">
+    <header class="page-header">
+      <h2>Movies!</h2>
+    </header>
+    <main>
+
+    </main>
+    <script id="movies-template" type="text/x-handlebars-template">
+      {{#each movies}}
+      <div class="movies">
+        <h1>{{title}}</h1>
+      </div>
+      {{/each}}
+    </script>
+
+
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.min.js" charset="utf-8"></script>
+    <script src="client.js" charset="utf-8"></script>
+  </body>
+</html>
